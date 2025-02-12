@@ -1,5 +1,4 @@
 # sw
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'llama3-api-70b' \
@@ -11,7 +10,6 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # sp
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'llama3-api-70b' \
@@ -23,7 +21,6 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # mw
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'llama3-api-70b' \
@@ -35,7 +32,6 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # mp
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'llama3-api-70b' \
@@ -45,14 +41,3 @@ python /gfshome/MaskPrompt/src/main.py \
     --mode 7 \
     --temperature 0.6 
 
-
-# # ensemble
-# knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
-# python /gfshome/MaskPrompt/src/main.py \
-#     --input_dataset 'advbench-custom' \
-#     --victim_model_name 'llama3-api-70b' \
-#     --judge_model_name 'gpt-4o' \
-#     --ps 'wiki-text-infilling-ensemble' \
-#     --model_name 'gpt-4o' \
-#     --mode 7 \
-#     --temperature 0.6 

@@ -1,5 +1,4 @@
 # sw
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \
@@ -11,7 +10,6 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # sp
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \
@@ -23,7 +21,6 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # mw
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \
@@ -35,7 +32,6 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # mp
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python /gfshome/MaskPrompt/src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \

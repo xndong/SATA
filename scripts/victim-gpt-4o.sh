@@ -1,5 +1,4 @@
 # sw
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name gpt-4o \
@@ -10,7 +9,6 @@ python src/main.py \
 
 
 # sp
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name gpt-4o \
@@ -21,7 +19,6 @@ python src/main.py \
 
 
 # mw
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name gpt-4o \
@@ -32,7 +29,6 @@ python src/main.py \
 
 
 # mp
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name gpt-4o \
@@ -43,7 +39,6 @@ python src/main.py \
 
 
 # ensemble
-knockknock telegram --token 7745411874:AAHqvL0TRSnVHeYdlAK9zs_1ZiQuaB4BNsw --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name gpt-4o \

@@ -1,5 +1,4 @@
 # sw
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name llama3-api-70b \
@@ -12,7 +11,6 @@ python src/main.py \
 
 
 # sp
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name llama3-api-70b \
@@ -25,7 +23,6 @@ python src/main.py \
 
 
 # mw
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name llama3-api-70b \
@@ -38,7 +35,6 @@ python src/main.py \
 
 
 # mp
-knockknock telegram --token 7830241625:AAGyvxLxAUMYle4AgITGjHPObRG0FZxUPkM --chat-id 7294961734 \
 python src/main.py \
     --input_dataset advbench-custom \
     --victim_model_name llama3-api-70b \
