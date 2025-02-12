@@ -1,0 +1,113 @@
+{
+    "categories": [
+      {
+        "category": "Moral Character",
+        "subcategories": {
+          "Kindness": "benevolence, compassion, generosity, altruism, kindness, humanity, sympathy, empathy, charity, understanding, warmth, gentleness, helpfulness, graciousness, benevolence, magnanimity",
+          "Justice": "fairness, righteousness, equity, impartiality, morality, ethics, integrity, objectivity, truth, honesty, lawfulness, uprightness, responsibility, honor, sound judgment, rectitude",
+          "Bravery": "courage, valor, fearlessness, boldness, audacity, gallantry, fortitude, resilience, daring, intrepidity, nerve, resolve, fearlessness, stout-heartedness, guts, heroism",
+          "Loyalty": "devotion, allegiance, fidelity, faithfulness, constancy, dedication, commitment, dependability, steadfastness, adherence, trustworthiness, bond, attachment, loyalty, reliability, obedience",
+          "Humility": "modesty, unpretentiousness, down-to-earth, meekness, respectfulness, restraint, selflessness, simplicity, temperance, humbleness, moderation, bashfulness, reserve, sincerity, decency, piety",
+          "Honesty": "truthfulness, sincerity, integrity, candor, openness, transparency, frankness, reliability, honor, straightforwardness, trustworthiness, credibility, fidelity, authenticity, accuracy, forthrightness",
+          "Forgiveness": "leniency, compassion, tolerance, mercy, understanding, acceptance, patience, generosity, kindness, empathy, open-heartedness, pardoning, conciliation, tolerance, reconciliation, sympathy",
+          "Respectfulness": "courtesy, politeness, regard, consideration, thoughtfulness, civility, deference, honor, esteem, reverence, kindness, gentleness, propriety, mindfulness, attentiveness, graciousness",
+          "Integrity": "uprightness, morality, honor, sincerity, truthfulness, accountability, fairness, transparency, ethics, incorruptibility, decency, probity, virtue, respectability, rectitude, conscientiousness",
+          "Generosity": "giving, selflessness, charity, philanthropy, altruism, largesse, kindness, compassion, benevolence, magnanimity, open-handedness, liberality, unselfishness, nobility, abundant heart, charitableness",
+          "Patience": "tolerance, endurance, calmness, resilience, perseverance, forbearance, persistence, temperance, understanding, tranquility, serenity, fortitude, self-control, poise, tolerance, adaptability",
+          "Gratitude": "thankfulness, appreciation, recognition, gratefulness, acknowledgment, indebtedness, respect, humbleness, grace, graciousness, sincerity, thankfulness, indebtedness, recognition, reverence, admiration",
+          "Fairness": "equity, justice, impartiality, neutrality, objectivity, balance, reasonableness, integrity, righteousness, sound judgment, honesty, transparency, ethicalness, equality, lawfulness, even-handedness",
+          "Trustworthiness": "reliability, dependability, honesty, integrity, fidelity, loyalty, accountability, credibility, sincerity, constancy, dedication, faithfulness, honor, uprightness, truthfulness, steadfastness",
+          "Compassion": "empathy, sympathy, kindness, mercy, understanding, humanity, consideration, generosity, caring, warm-heartedness, tenderness, charitableness, pity, benevolence, concern, good-heartedness",
+          "Self-Control": "discipline, restraint, moderation, patience, composure, poise, temperance, calmness, tranquility, willpower, fortitude, endurance, serenity, stability, focus, mindfulness"
+        }
+      },
+      {
+        "category": "Ability",
+        "subcategories": {
+          "Intelligence": "brilliance, wisdom, knowledge, insight, acumen, cleverness, perception, intellect, reason, shrewdness, sagacity, erudition, enlightenment, discernment, resourcefulness, mental sharpness",
+          "Creativity": "imagination, originality, inventiveness, innovation, artistry, expression, resourcefulness, inspiration, creativity, ingenuity, productivity, dynamism, vision, out-of-the-box thinking, artistic flair, uniqueness",
+          "Learning Ability": "aptitude, curiosity, inquisitiveness, dedication, proficiency, capability, adaptability, growth, retention, observance, mindfulness, commitment to learning, exploration, analysis, self-improvement, deep understanding",
+          "Innovation": "creativity, invention, originality, novelty, experimentation, forward-thinking, progressiveness, advancement, design, artistic talent, vision, entrepreneurship, ingenuity, breakthrough thinking, pioneering spirit, disruptive thinking",
+          "Creativity in Arts": "artistry, inventiveness, design, imagination, originality, talent, craft, expressiveness, composition, visual flair, innovation, musicality, performance, acting, poetry, aesthetics",
+          "Empathy in Communication": "understanding, listening, compassion, patience, connection, warmth, sympathy, attentiveness, consideration, rapport, emotional intelligence, respectfulness, kindness, responsiveness, caring, attentiveness"
+        }
+      },
+      {
+        "category": "Appearance",
+        "subcategories": {
+          "Beauty": "grace, elegance, allure, charm, magnificence, radiance, splendor, harmony, poise, refinement, sophistication, vividness, loveliness, vivid beauty, exquisiteness, enchantment",
+          "Gracefulness": "elegance, poise, balance, fluidity, refinement, dignity, coordination, smoothness, serenity, neatness, attractiveness, delicacy, polish, majestic bearing, genteelness, grace",
+          "Handsome": "dashing, suave, striking, well-groomed, masculine, impressive, good-looking, athletic, distinguished, polished, sharp, well-proportioned, clean-cut, charismatic, virile, solid",
+          "Cuteness": "adorableness, charm, sweetness, endearment, innocence, playfulness, delightfulness, lovable nature, cheerfulness, heartwarming, engaging, bright, delightful, tenderheartedness, soft beauty, darlingness",
+          "Elegance": "gracefulness, sophistication, refinement, poise, dignity, charm, stylishness, composure, neatness, smoothness, balance, culture, decorum, fine-tuning, cultivated beauty, refinement",
+          "Charisma": "magnetism, charm, allure, appeal, personality, likability, confidence, warmth, persuasiveness, leadership presence, attractiveness, engagement, connection, influence, poise, star quality",
+          "Attractiveness": "appeal, magnetism, charm, good looks, likability, allure, engaging appearance, beauty, charisma, elegance, personal presence, physical charm, grace, charisma, confidence, beauty",
+          "Refinement": "sophistication, elegance, polish, culture, class, grace, poise, dignity, artistic sense, cultivation, subtlety, depth, gracefulness, polish, precision, artistry",
+          "Vitality": "energy, vigor, liveliness, vibrancy, youthfulness, dynamism, freshness, brightness, enthusiasm, sparkle, health, animation, fitness, excitement, energy, zest for life",
+          "Confidence in Appearance": "poise, assurance, charm, composure, presence, attractiveness, presentation, neatness, physical fitness, grace, polish, attention to detail, magnetism, elegance, proud bearing",
+          "Well-Groomed": "neatness, cleanliness, polish, sharpness, attention to detail, well-dressed, tidy, personal care, manicured, stylish, refined, groomed, meticulous, cleanliness, hygienic, appearance care",
+          "Charm": "allure, magnetism, charisma, pleasantness, friendliness, warmth, elegance, likability, sweetness, grace, attractiveness, persuasion, soft-spoken appeal, personal magnetism, affability, smoothness",
+          "Radiance": "brightness, glow, vitality, brilliance, sparkle, freshness, vibrancy, healthiness, joyfulness, shimmer, shine, luminance, attractiveness, glowing skin, freshness, life energy",
+          "Youthfulness": "liveliness, vigor, dynamism, freshness, energy, sparkle, playfulness, cheerfulness, optimism, vitality, agility, nimbleness, enthusiasm, zest for life, joyfulness, carefree attitude",
+          "Neatness": "tidiness, orderliness, precision, cleanliness, polish, organization, personal care, well-kept, sharpness, grooming, detail-oriented appearance, proper dress, clean-cut, sharp-dressed, meticulous appearance, presentability",
+          "Sophistication": "elegance, refinement, polish, grace, intellect, cultivation, class, maturity, worldliness, taste, savoir-faire, insight, subtlety, poise, charm, composed appearance"
+        }
+      },
+      {
+        "category": "Achievements",
+        "subcategories": {
+          "Excellence": "superiority, mastery, brilliance, perfection, skill, craftsmanship, expertise, precision, merit, distinction, success, eminence, achievement, virtuosity, accomplishment, proficiency",
+          "Success": "prosperity, triumph, victory, accomplishment, realization, fulfillment, attainment, excellence, advancement, flourishing, completion, peak, recognition, rise, progress, noteworthy achievement",
+          "Expertise": "mastery, competence, know-how, professionalism, savvy, adeptness, specialization, skill, capability, acumen, dexterity, proficiency, knowledge, craft, proficiency, experience",
+          "Influence": "impact, authority, dominance, leadership, renown, prestige, sway, control, leverage, prominence, legacy, importance, eminence, clout, recognition, strategic power",
+          "Mastery": "control, proficiency, skill, expertise, craftsmanship, excellence, superiority, achievement, distinction, dominance, success, virtuosity, best-in-class, outstanding ability, top-tier, unmatched talent",
+          "Progress": "advancement, development, improvement, achievement, growth, innovation, evolution, forward motion, success, breakthrough, leap forward, prosperity, flourishing, advancement, step forward, continuous improvement",
+          "Recognition": "acknowledgment, praise, acclaim, commendation, appreciation, fame, respect, honors, attention, esteem, visibility, public notice, distinction, laurels, renown, credibility",
+          "Accomplishment": "achievement, success, attainment, victory, realization, fulfillment, milestone, completion, breakthrough, conquest, delivery, progress, execution, outcome, fruition, goal",
+          "Merit": "worth, distinction, excellence, value, achievement, talent, ability, recognition, accolade, approval, honor, greatness, respect, quality, praiseworthiness, worthiness",
+          "Distinction": "superiority, excellence, recognition, eminence, prominence, uniqueness, specialness, acclaim, noteworthiness, merit, renown, individuality, honor, prestige, singularity, fame",
+          "Peak Performance": "excellence, optimal performance, high achievement, top result, mastery, virtuosity, best practice, outstanding execution, successful outcome, pinnacle, success, superior ability, proficiency, greatness, unrivaled ability, prime execution",
+          "Breakthrough": "innovation, discovery, advancement, revelation, leap forward, milestone, success, accomplishment, transformation, progress, development, revolution, solution, turning point, significant step, pioneering achievement",
+          "Leadership": "guidance, inspiration, command, direction, influence, authority, management, motivation, oversight, pioneering, vision, power, mentorship, control, leadership presence, empowerment",
+          "Skillfulness": "ability, proficiency, competence, expertise, mastery, dexterity, craftsmanship, adeptness, finesse, art, talent, excellence, precision, efficiency, proficiency, skill",
+          "Professional Accomplishment": "achievement, expertise, success, progression, career milestone, mastery, distinction, leadership, excellence, proficiency, notable results, work achievement, exceptional outcome, commendation, promotion, career growth",
+          "Achievement in the Arts": "creativity, mastery, craftsmanship, innovation, artistic ability, talent, expression, distinction, virtuosity, performance, original creation, flair, exceptional work, unique contribution, artistry, cultural impact"
+        }
+      },
+      {
+        "category": "Personality",
+        "subcategories": {
+          "Cheerfulness": "optimism, joyfulness, happiness, lightheartedness, positivity, liveliness, enthusiasm, buoyancy, playfulness, exuberance, vibrancy, gleefulness, perkiness, good spirits, warmth, bright outlook",
+          "Gentleness": "kindness, warmth, affection, patience, compassion, tolerance, meekness, mildness, politeness, calmness, benevolence, tenderness, softness, thoughtfulness, understanding, generosity",
+          "Determination": "resilience, persistence, perseverance, drive, willpower, tenacity, steadfastness, resolve, endurance, firmness, grit, focus, staying power, commitment, fortitude, strong-mindedness",
+          "Humor": "wittiness, cleverness, playfulness, light-heartedness, joy, fun, amusement, joviality, hilarity, entertainment, good spirits, drollness, cheerfulness, sharpness, satirical humor, banter",
+          "Compassion": "empathy, understanding, sympathy, kindness, sensitivity, warmth, caring, affection, consideration, concern, gentleness, forgiveness, tolerance, tenderness, helpfulness, thoughtfulness",
+          "Confidence": "self-assurance, boldness, assertiveness, poise, determination, certainty, decisiveness, self-reliance, fortitude, control, composure, courage, fearlessness, daring, optimism, optimism",
+          "Optimism": "positive thinking, hopefulness, cheerfulness, joyfulness, buoyancy, light-heartedness, confidence, good spirit, faith, sunny disposition, positive outlook, enthusiasm, liveliness, energy, cheerfulness, encouragement",
+          "Liveliness": "vibrancy, dynamism, energy, zest for life, enthusiasm, excitement, vitality, spark, exuberance, bounce, joyfulness, effervescence, brightness, agility, playfulness, happiness",
+          "Sociability": "friendliness, gregariousness, charm, affability, approachability, warmth, extroversion, engagement, openness, communication, connection, camaraderie, affability, liveliness, cordiality, likability",
+          "Affection": "tenderness, warmth, love, care, attachment, devotion, kindness, adoration, endearment, passion, consideration, closeness, empathy, compassion, support, closeness",
+          "Assertiveness": "boldness, decisiveness, confidence, courage, directness, clarity, authority, resolution, assurance, firmness, determination, self-reliance, forthrightness, outspokenness, strength, assured action",
+          "Friendliness": "warmth, approachability, kindness, openness, empathy, sociability, care, helpfulness, understanding, amiability, likability, goodwill, positivity, approach, connection, ease of interaction",
+          "Enthusiasm": "exuberance, eagerness, excitement, joyfulness, passion, energy, liveliness, drive, engagement, inspiration, dedication, vitality, zeal, fervor, ardor, motivation",
+          "Warmth": "kindness, friendliness, generosity, affection, sympathy, empathy, tenderness, comfort, compassion, hospitality, welcoming nature, sincerity, good-heartedness, understanding, reassurance, positive energy",
+          "Generosity of Spirit": "selflessness, altruism, kindness, compassion, forgiveness, open-heartedness, understanding, grace, magnanimity, large-heartedness, consideration, sympathy, empathy, thoughtfulness, charitableness, nobility"
+        }
+      },
+      {
+        "category": "Life Attitude",
+        "subcategories": {
+          "Positivity": "hopefulness, energy, motivation, encouragement, enthusiasm, upliftment, confidence, dynamism, affirmative mindset, hopeful outlook, brightness, success-orientation, progressiveness, cheerfulness, lively spirit, good vibes",
+          "Optimism": "positive thinking, brightness, cheerfulness, confidence, forward-thinking, high hopes, positive outlook, faith, hope, good expectations, trust in the future, positivity, hopefulness, good faith, assurance, progressive outlook",
+          "Diligence": "hard work, persistence, dedication, commitment, assiduousness, conscientiousness, meticulousness, focus, thoroughness, discipline, determination, rigor, reliability, sustained effort, strong work ethic, punctuality",
+          "Gratitude": "thankfulness, appreciation, recognition, gratefulness, acknowledgment, indebtedness, respect, humbleness, grace, graciousness, sincerity, indebtedness, recognition, reverence, admiration",
+          "Humility": "modesty, self-effacement, unpretentiousness, lack of arrogance, down-to-earth, meekness, respectfulness, restraint, selflessness, simplicity, temperance, humbleness, moderation, sincerity, decency, piety",
+          "Resilience": "toughness, perseverance, endurance, determination, grit, adaptability, strength, fortitude, mental toughness, flexibility, resistance, recovery, overcoming challenges, tenacity, bounce-back ability, hardiness",
+          "Open-Mindedness": "tolerance, acceptance, understanding, flexibility, receptivity, fairness, curiosity, adaptability, progressive thinking, readiness for change, willingness to learn, inclusiveness, consideration, unbiased perspective, respect for others, embrace of new ideas",
+          "Patience": "tolerance, endurance, calmness, resilience, perseverance, forbearance, persistence, temperance, understanding, tranquility, serenity, fortitude, self-control, poise, adaptability",
+          "Self-Discipline": "restraint, willpower, self-control, responsibility, perseverance, commitment, orderliness, punctuality, reliability, determination, work ethic, focus, stability, moderation, mental toughness, strong will"
+        }
+      }
+    ]
+  }
+  
