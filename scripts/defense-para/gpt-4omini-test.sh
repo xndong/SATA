@@ -1,5 +1,5 @@
 
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o-mini' \
     --judge_model_name 'gpt-4o' \
@@ -8,7 +8,7 @@ python /gfshome/MaskPrompt/src/main.py \
     --mode 7 \
     --defense para
 
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o-mini' \
     --judge_model_name 'gpt-4o' \

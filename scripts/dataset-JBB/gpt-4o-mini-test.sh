@@ -10,7 +10,7 @@
 #     --num_samples 2
 
 
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'jbb' \
     --victim_model_name 'gpt-4o-mini' \
     --judge_model_name 'gpt-4o' \

@@ -1,5 +1,5 @@
 # sw
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \
     --judge_model_name 'gpt-4o' \
@@ -10,7 +10,7 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # sp
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \
     --judge_model_name 'gpt-4o' \
@@ -21,7 +21,7 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # mw
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \
     --judge_model_name 'gpt-4o' \
@@ -32,7 +32,7 @@ python /gfshome/MaskPrompt/src/main.py \
 
 
 # mp
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o' \
     --judge_model_name 'gpt-4o' \

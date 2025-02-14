@@ -11,7 +11,7 @@
 #     --num_samples 1
 
 
-python /gfshome/MaskPrompt/src/main.py \
+python src/main.py \
     --input_dataset 'advbench-custom' \
     --victim_model_name 'gpt-4o-mini' \
     --judge_model_name 'gpt-4o' \
