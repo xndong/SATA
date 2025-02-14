@@ -56,10 +56,17 @@ class GPT:
         response = None
         while retry_count < retries:
             try:
-                message = [{'role':'user', 'content':prompt}] if 'system' not in kwargs else [{'role':'system', 'content':kwargs['system']}, {'role':'user', 'content':prompt}] 
+                message = [{'role':'user', 'content':prompt}] if 'system' not in kwargs else [{'role':'system', 'content':kwargs['system']}, {'role':'user', 'content':prompt}]
                 # print(Fore.RED + f"message: {message}" + Fore.RESET)
-                if 'system' in kwargs: kwargs.pop('system') 
-                response = self.client.chat.completions.create(messages=message, n=n, model=model, temperature=temperature, seed=seed, max_tokens=2048, **kwargs)
+                if 'system' in kwargs: kwargs.pop('system')
+                
+                if 'o1' not in self.model_name and 'o3-mini' not in self.model_name:
+                    response = self.client.chat.completions.create(messages=message, n=n, model=model, temperature=temperature, seed=seed, max_tokens=2048, **kwargs)
+                else:
+                    if 'o1-mini' in self.model_name:
+                        response = self.client.chat.completions.create(messages=message, n=n, model=model, seed=seed, max_completion_tokens=2048, **kwargs)
+                    else:
+                        response = self.client.chat.completions.create(messages=message, n=n, model=model, seed=seed, max_completion_tokens=2048, reasoning_effort='medium', **kwargs)
                 break
             except Exception as e:
                 retry_count += 1
@@ -229,6 +236,54 @@ class Llama3_api:
         return [response.choices[i].message.content for i in range(n)]
 
 
+class Deepseek_api:
+    def __init__(self, model_name, temperature=0.6) -> None:
+        assert 'deepseek' in model_name
+        self.T = temperature
+        self.api_key = "PLACEHOLDER_FOR_YOUR_SILICONFLOW_API_KEY"
+        self.client = OpenAI(api_key=self.api_key, base_url="https://api.siliconflow.cn/v1")
+        
+        if 'r1' in model_name:
+            self.model_DI = "Pro/deepseek-ai/DeepSeek-R1"
+        elif 'v3' in model_name:
+            self.model_DI = "deepseek-ai/DeepSeek-V3"
+        else:
+            raise ValueError(f"Model_name should start with deepseek-r1 or deepseek-v3, but got {model_name}.")
+        
+    def __call__(self, prompt, n=1, debug=False, top_p=0.9, **kwargs: Any) -> Any:
+        prompt = [{'role':'user', 'content':prompt}] if 'system' not in kwargs else [{'role':'system', 'content':kwargs['system']}, {'role':'user', 'content':prompt}]
+        # print(Fore.RED + f"message: {prompt}" + Fore.RESET)
+        if debug:
+            response = self.client.chat.completions.create(messages=prompt, n=n, model=self.model_DI, temperature=self.T, top_p=top_p, **kwargs)
+        else:
+            response = self.call_wrapper(messages=prompt, n=n, model=self.model_DI, temperature=self.T, top_p=top_p, **kwargs)
+        return response
+    
+
+    def call_wrapper(self, **kwargs):
+        retry_count, retries = 0, 5
+        response = None
+        while retry_count < retries:
+            try:
+                # print(Fore.BLUE + f"kwargs: {kwargs}" + Fore.RESET)
+                if 'system' in kwargs: kwargs.pop('system')
+                response = self.client.chat.completions.create(**kwargs)
+                break
+            except Exception as e:
+                retry_count += 1
+                backoff_time = 2**retry_count+1
+                time.sleep(backoff_time)
+                logger.exception(f"error exception: {e}")
+                logger.info(f"Retrying in {backoff_time} seconds...")     
+        if response == None : logger.error(f'>>> Fail to generate response after trying {retries} times invoking. The response will be initial `None`.')        
+        
+        return response
+
+    def resp_parse(self, response)->list:
+        n = len(response.choices)
+        return [response.choices[i].message.content for i in range(n)]
+
+
 def load_model(model_name, api_idx, **kwargs):
     
     if model_name == "azure-gpt4o":
@@ -243,6 +298,12 @@ def load_model(model_name, api_idx, **kwargs):
     elif "llama3" in model_name:
         return Llama3_api(model_name, **kwargs)
 
+    elif "deepseek" in model_name:
+        return Deepseek_api(model_name, **kwargs)
+    
+    elif "o1" in model_name or "o3-mini" in model_name:
+        return GPT(model_name, **kwargs)
+    
     else:
         raise ValueError(f"model_name invalid")
 

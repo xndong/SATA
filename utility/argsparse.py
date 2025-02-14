@@ -17,7 +17,7 @@ def parse_args():
         "--victim_model_name",
         default="gpt-3.5-turbo",
         type=str,
-        choices=['gpt-3.5-turbo', 'gpt-4o', 'gpt-4o-mini', 'gpt-4o-2024-05-13', 'gpt-4o-2024-08-06', 'azure-gpt4o', 'gpt-4-1106-preview', 'gpt-4-0613', 'claude-v2', 'llama3-api-8b', 'llama3-api-70b'],
+        choices=['o1', 'o1-mini', 'o1-mini-2024-09-12', 'o3-mini', 'gpt-3.5-turbo', 'gpt-4o', 'gpt-4o-mini', 'gpt-4o-2024-05-13', 'gpt-4o-2024-08-06', 'azure-gpt4o', 'gpt-4-1106-preview', 'gpt-4-0613', 'claude-v2', 'llama3-api-8b', 'llama3-api-70b', 'deepseek-r1', 'deepseek-v3'],
         help="The name of chosen victim model. The llama-2 models are called through Deepinfra (see 'llama-api-Xb'); The llama-3 models are called through Siliconflow (see llama3-api-Xb). Note that Deepinfra announced that 'Due to low usage 7b and 13b have been replaced by meta-llama/Meta-Llama-3-8B-Instruct and 70b has been replaced by meta-llama/Meta-Llama-3-70B-Instruct. Your inference requests are still working but they are redirected. Please update your code to use another model.'"
     )
     parser.add_argument(

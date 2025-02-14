@@ -121,6 +121,10 @@ class GPTJudge:
             return 'Anthropic'
         elif 'gemini' in policy_model:
             return "Google"
+        elif 'deepseek' in policy_model:
+            return "DeepSeek"
+        elif 'o1' in policy_model or 'o3-mini' in policy_model:
+            return 'OpenAI'
         else:
             raise ValueError('Unknown policy model')
         
