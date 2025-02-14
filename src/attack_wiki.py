@@ -21,7 +21,7 @@ logger = logging.getLogger()
 
 def random_choose(N, seed=64):
 
-    with open('/gfshome/MaskPrompt/data/comendatory_terms-manually.json', 'r') as fp:
+    with open('./data/comendatory_terms-manually.json', 'r') as fp:
         data = json.load(fp)
     
     comendatory_words = [element for category in data['categories'] for k, v in category['subcategories'].items() for element in v.split(', ')]
